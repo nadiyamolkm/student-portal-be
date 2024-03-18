@@ -7,8 +7,6 @@ const getMarks = async (req: Request, res: Response): Promise<void> => {
         registerNumber,
         batch
     }
-    console.log("====3===")
-    console.log(details)
     if (batch === 'cse') {
 
         const result = await getmarksModel.getMarksCSE(details);

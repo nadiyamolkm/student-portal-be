@@ -59,12 +59,6 @@ const listStudent = async (req: Request, res: Response) => {
     }
 }
 
-/**************** get student by id for updating ***********/
-const getStudentById = async (req: Request, res: Response) => {
-    const id = req.params.id;
-
-}
-
 
 /***************UPDATE STUDENT ***************/
 
